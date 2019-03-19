@@ -19,6 +19,7 @@ nav {
   position: relative;
   display: inline-block;
   float: right;
+  z-index: 30;
 }
 
 .dropdown-content {
@@ -28,6 +29,7 @@ nav {
   background-color: #085add;
   min-width: 160px;
 }
+
 
 .dropdown-content a {
   color: white;
