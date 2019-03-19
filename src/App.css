@@ -1,33 +1,89 @@
-.App {
-  text-align: center;
+nav {
+  background-color: #085add;
+  -webkit-box-shadow: 0 5px 20px 0px #000;
+  -moz-box-shadow: 0 5px 20px 0px #000;
+  box-shadow: 0 5px 20px 0px #000;
+  margin-bottom: 30px;
+  height: 57px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dropbtn {
+  background-color: #085add;
   color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #085add;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #085add;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #085add;}
+
+.site {
+  color: white;
+  text-decoration: none;
+  font-family: tahoma;
+  margin-left: 10px;
+  margin-top: 25px;
+
+}
+
+.site:hover {
+  text-decoration: none;
+}
+
+
+.card {
+  border-radius: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 5px 20px 0px #000;
+  -moz-box-shadow: 0 5px 20px 0px #000;
+  box-shadow: 0 5px 20px 0px #000;
+  height: 200px;
+  width: 100%;
+}
+
+.top {
+  color: white;
+  background-color: #085add;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card:hover {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bottom {
+  padding: 10px;
 }
